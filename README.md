@@ -1,15 +1,17 @@
-# Download or Clone repo
+# Instructions to Run
 
-git clone <HTTPS-Link>
+## Download or Clone repo
+
+git clone https://github.com/christiancruuz/jcrewtakehome.git
 
 ## Open project folder
 
 cd jcrewtakehome
 
-### Install Depencies
+## Install Depencies
 
-cd jcrewtakehome
+npm install
 
-#### Run Project
+### Run Project
 
 npm start
