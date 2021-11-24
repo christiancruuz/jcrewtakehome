@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.product-list {
+  background: #f2f2f2;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-y: auto;
+  grid-row-gap: 5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-img {
+  width: 23vw;
+  display: block;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-info {
+  font-size: 0.825rem;
+  text-align: left;
+  margin-top: 1.5rem;
+  padding: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.product-container {
+  width: 23vw;
+  margin: auto;
+  padding-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.product-container:hover {
+  box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-page-container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2rem;
+  background: #f2f2f2;
+}
+
+.swatch-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin: 0.5rem;
+  padding: 3px;
+  box-shadow: inset 0 0 3px 0 rgba(100, 100, 100, 0.7);
+}
+
+.product-page-img {
+  width: 40vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.product-grid {
+  display: grid;
+  max-width: 70vw;
+  margin: auto;
+  grid-template-columns: 40vw 30vw;
+  box-shadow: 0 0 4px 0 rgba(100, 100, 100, 0.5);
+}
+
+.color-txt {
+  margin-top: 1rem;
+  font-size: 0.825rem;
+}
+
+.product-page-details {
+  background: rgb(233, 233, 233);
 }
